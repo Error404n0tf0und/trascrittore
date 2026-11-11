@@ -1,0 +1,8 @@
+# gli script Windows devono mantenere gli a-capo di Windows
+*.bat text eol=crlf
+*.iss text eol=crlf
+*.txt text eol=crlf
+*.py  text eol=lf
+*.md  text eol=lf
+*.ico binary
+*.png binary

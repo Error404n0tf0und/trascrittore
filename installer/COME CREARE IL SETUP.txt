@@ -1,0 +1,29 @@
+COME CREARE Trascrittore-Setup.exe  (una volta sola)
+=====================================================
+
+1. Installa Inno Setup (gratis): https://jrsoftware.org/isdl.php
+   -> scarica "innosetup-6.x.x.exe" e installalo con le opzioni predefinite.
+2. Doppio clic su "Trascrittore.iss": si apre in Inno Setup.
+3. Premi Compile (menu Build -> Compile, oppure Ctrl+F9).
+4. Dopo qualche secondo trovi il file nella sottocartella "Output":
+       Output\Trascrittore-Setup.exe
+
+Quello e' l'unico file da portare sugli altri PC (Drive, chiavetta, mail...).
+
+COSA FA IL SETUP SU OGNI PC
+- Installa Trascrittore (non servono permessi di amministratore).
+- Installa Python se manca e scarica i componenti (serve internet, qualche minuto:
+  compare una finestra nera che mostra l'avanzamento, e' normale).
+- Se c'e' una scheda video NVIDIA la attiva.
+- Crea l'icona sul desktop e nel menu Start.
+- Lo aggiunge alle app installate di Windows: si disinstalla da Impostazioni -> App.
+  La disinstallazione cancella anche i modelli scaricati, ma NON le registrazioni.
+
+Le registrazioni e le trascrizioni fatte con il programma installato vanno in
+Documenti\Trascrittore.
+
+Se Windows mostra "Windows ha protetto il PC" all'avvio del setup:
+Ulteriori informazioni -> Esegui comunque (succede con i programmi non firmati).
+
+PER UNA NUOVA VERSIONE: aggiorna i file nella cartella "app",
+cambia MyAppVersion in Trascrittore.iss e ricompila.

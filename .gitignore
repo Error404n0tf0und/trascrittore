@@ -1,0 +1,10 @@
+# file creati usando il programma: non vanno su GitHub
+app/modelli/
+app/registrazioni/
+app/errori.txt
+app/avvia.vbs
+__pycache__/
+*.pyc
+
+# setup compilato (si pubblica nelle Release, non nel codice)
+installer/Output/

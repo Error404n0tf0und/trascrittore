@@ -1,0 +1,27 @@
+TRASCRITTORE v1.0 - registra e trascrive audio in locale (gratis, senza internet)
+Creato da Error404.ntf
+================================================================================
+
+INSTALLAZIONE (una volta per ogni PC)
+1. Estrai lo zip in una cartella che non sposterai piu' (es. Documenti\Trascrittore).
+2. Doppio clic su INSTALLA.bat e aspetta la fine.
+   - Se manca Python, lo installa da solo.
+   - Se il PC ha una scheda video NVIDIA, la attiva da solo.
+   - Se compare "Windows ha protetto il PC": Ulteriori informazioni -> Esegui comunque.
+3. Sul desktop trovi l'icona "Trascrittore".
+
+USO
+- "Registra" / "Stop": registra dal microfono (file in "registrazioni").
+- "Trascrivi un file...": trascrive un file esistente (mp3, m4a, wav, video...).
+- Il testo viene salvato in automatico come .txt accanto all'audio.
+- "Salva parziale": durante la trascrizione salva il testo fatto finora
+  in "nome (parziale).txt", senza fermarla.
+- "Interrompi": ferma la trascrizione e salva comunque la parte gia' fatta.
+- Modalita' veloce: circa il doppio piu' rapida, poco meno precisa.
+  E' spuntata da sola sui PC senza scheda NVIDIA.
+
+NOTE
+- Alla prima trascrizione scarica il modello (circa 1,6 GB) nella cartella "modelli".
+  Per non riscaricarlo su un altro PC, copia anche la cartella "modelli".
+- Se qualcosa va storto, l'errore completo e' in errori.txt.
+- Se sposti la cartella, rilancia INSTALLA.bat per aggiornare l'icona.
