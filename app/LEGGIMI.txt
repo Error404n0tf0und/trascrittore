@@ -1,5 +1,5 @@
 TRASCRITTORE v1.0 - registra e trascrive audio in locale (gratis, senza internet)
-Creato da Error404.ntf
+Creato da Error404.ntf - licenza MIT
 ================================================================================
 
 INSTALLAZIONE (una volta per ogni PC)
