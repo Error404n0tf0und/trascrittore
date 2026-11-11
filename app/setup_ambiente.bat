@@ -23,7 +23,7 @@ echo [1/4] Python trovato.
 rem ---- 2. Componenti del programma ----
 echo [2/4] Installo i componenti, qualche minuto...
 "%PY%" -m pip install --upgrade pip --quiet
-"%PY%" -m pip install --upgrade faster-whisper sounddevice "av<15"
+"%PY%" -m pip install --upgrade faster-whisper sounddevice
 if errorlevel 1 goto errpip
 
 rem ---- 3. Scheda video NVIDIA (se c'e') ----
