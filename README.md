@@ -9,6 +9,11 @@
   Creato da <b>Error404.ntf</b>
 </p>
 
+<p align="center">
+  <a href="https://github.com/Error404n0tf0und/trascrittore/releases/latest/download/Trascrittore-Setup.exe"><img src="https://img.shields.io/badge/Scarica-Trascrittore--Setup.exe-5B4FE0?style=for-the-badge&logo=windows&logoColor=white" alt="Scarica Trascrittore-Setup.exe"></a>
+  <br><sub>Windows 10/11 · <a href="https://github.com/Error404n0tf0und/trascrittore/releases/latest">note della versione</a></sub>
+</p>
+
 ---
 
 ## Cos'è
@@ -28,9 +33,12 @@ a differenza della dettatura di Word lavora sul file intero, quindi **non salta 
 ## Installazione
 
 ### Con il setup (consigliato)
-1. Scarica `Trascrittore-Setup.exe` (vedi sotto come crearlo).
+1. Scarica [`Trascrittore-Setup.exe`](https://github.com/Error404n0tf0und/trascrittore/releases/latest/download/Trascrittore-Setup.exe) dall'ultima release.
 2. Doppio clic → *Avanti* → *Installa*. Installa da solo Python e i componenti (serve internet, qualche minuto).
 3. Avvia **Trascrittore** dal desktop o dal menu Start.
+
+Se Windows mostra *"Windows ha protetto il PC"*: **Ulteriori informazioni → Esegui comunque**
+(succede con i programmi senza firma digitale).
 
 Le registrazioni e le trascrizioni vanno in `Documenti\Trascrittore`.
 Si disinstalla da *Impostazioni → App*, come un programma normale.
